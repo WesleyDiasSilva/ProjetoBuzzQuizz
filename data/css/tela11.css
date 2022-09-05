@@ -1,0 +1,69 @@
+.tela11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.tela11 .botaoAcessar,
+.tela11 .botaoHome {
+    width: 200px;
+    height: 44px;
+}
+
+.tela11 .botaoHome {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 21px;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+    color: #818181;
+    margin-top: 9px;
+}
+.tituloDoQuizz {
+    width: 320px;
+    height: 54px;
+    font-weight: 400;
+    font-size: 23px;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 190px;
+    left: 450px;
+}
+.imgQuizz {
+    width: 500px;
+    height: 266px;
+    border-radius: 5px; 
+    position: relative;
+    margin-bottom: 45px;
+    margin-top: 20px;
+}
+
+.tumbQuizzCriado{
+    position: relative;
+}
+
+.tumbQuizzCriado p{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+@media(max-width:1100px){
+    .tela11{
+        width: 100%;
+    }
+
+    .tumbQuizzCriado{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .imgQuizz{
+        width: 95%;
+        object-fit: cover;
+    }
+}
